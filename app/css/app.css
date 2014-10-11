@@ -1,0 +1,38 @@
+/* Desktop maiores */
+@media (min-width: 1200px) {
+	.container {
+		max-width: 890px;
+	}
+}
+ 
+/* tables em formato porta retrato até os desktos no formato paisagem */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+ 
+/* dispositivo em paisagem até os tablets em formato porta-retrato */
+@media (max-width: 767px) {
+	.container{
+		max-width: 767px;
+	}
+	.item .img img{
+
+	}
+}
+ 
+/* dispositivo no formato paisagem e abaixos */
+@media (max-width: 480px) {
+	.container{
+		max-width: 480px;
+	}
+	.item .img img{
+		max-width: 490px;
+	}
+}
+
+body {
+	background-color: #545454;
+}
+.item {
+	background-color: #FFF;
+}
