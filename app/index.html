@@ -13,23 +13,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				
-				<div class="item text-center" data-ng-repeat="i in [1, 2, 3]">
-					<div class="img">
-						<div class="img-header">
-							Aqui vai o titulo da foto {{i}}
-						</div>
-						<img data-ng-src="http://lorempixel.com/400/450/?i={{i}}">
-						<div class="social-icons-area">
-							Aqui vai os icones das redes sociais para share
-
-						</div>
-					</div>
-					<div class="well listra">
-						<p>Area de comentarios</p>
-					</div>
-				</div>
-
+				<div id="app-view" data-ng-view></div>
 			</div>
 		</div>
 	</div>
@@ -37,6 +21,7 @@
 	<script src="js/libs/angular.min.js"></script>
 	<script src="js/libs/angular-route.min.js"></script>
 	<script src="js/libs/ui-bootstrap.min.js"></script>
+	<script src="js/libs/instafeed.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
 </html>
