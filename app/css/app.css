@@ -1,10 +1,10 @@
 .social-icons-area{
 	bottom: 0;
 }
-.img-title{
+.img-header{
 	top: 0;
 }
-div.img-container {	
+div.img {	
 	position: relative;
 	overflow: hidden;
 	margin: 0 20px 20px 0;
@@ -21,7 +21,7 @@ div.img-container {
 	-moz-transition:    all 0.6s ease;
 	-o-transition:      all 0.6s ease;
 }
-div.img-container:hover .caption {
+div.img:hover .caption {
   opacity: 1;
 }
 
